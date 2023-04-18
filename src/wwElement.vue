@@ -11,6 +11,7 @@
         <wwElement v-if="content.hasLeftIcon && content.leftIcon" v-bind="content.leftIcon"></wwElement>
         <wwText tag="span" :text="text"></wwText>
         <wwElement v-if="content.hasRightIcon && content.rightIcon" v-bind="content.rightIcon"></wwElement>
+        <wwElement v-bind="content.button"></wwElement>
     </component>
 </template>
 
